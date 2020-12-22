@@ -1,0 +1,7 @@
+# backend
+backend/venv/
+backend/log/
+backend/static/
+backend/.env
+**/db.sqlite3
+*.pyc
