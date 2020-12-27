@@ -1,7 +1,7 @@
 # DJANGO & REACT
 
-
 ### Setting
+
 ```shell
 cd django-react/backend/
 
@@ -11,10 +11,13 @@ source venv/bin/activate
 
 pip install -r requirements.txt
 
+export $(cat .env | xargs)
+
 python manage.py runserver
 ```
 
 ### Frontend
+
 ```shell
 cd django-react/frontend/
 
